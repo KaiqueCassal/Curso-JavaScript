@@ -1,0 +1,32 @@
+Aritmeticos
+    + adição
+    - subtração
+    * multiplicação
+    / divisão
+    % resto da divisão
+    ** potência
+
+Ordem
+    ()
+    **
+    * / %
+    + -
+    */
+
+Relacionais
+    > maior
+    < menor
+    >= maior ou igual
+    <= menor ou igual
+    == igual
+    === identico
+    != diferente
+
+Logicos
+    ! não
+    && e
+    || ou
+
+Ternario
+    ? se for verdadeiro
+    : se for falso
