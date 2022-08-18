@@ -18,16 +18,23 @@
         <p>
             Resultado
         </p>
-        <p>
+        <p id="cor">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quas quo fuga vero doloribus explicabo id dolorum tempore architecto provident at, autem, eveniet tenetur cupiditate vitae, dignissimos dolor suscipit reprehenderit.
         </p>
-        <div>
+        <div id="msg">
             clique
         </div>
 
     <script>
-         var p1 = window.document.getElementsByName('p')[0]
-         window.document.write(`Escrito: ${p1.innerHTML}`)
+         var p1 = window.document.getElementsByTagName('p')[0]
+
+         var d = document.getElementById('msg')
+
+         var c = document.querySelector('p#cor')
+
+         document.write(p1.innerHTML)
+         d.style.background = 'red'
+         c.style.color = 'green'
     </script>
 </body>
 </html>
