@@ -1,2 +1,5 @@
 # Curso-JavaScript
- Curso em Video
+ <img src="cartao-visita.png">
+ <p>
+    Curso de JavaScript - Curso em Video
+ </p>
