@@ -10,15 +10,15 @@ function carregar(){
 
     if(hora >= 0 && hora < 12){
         //bom dia
-        img.src = 'solManha.png'
+        img.src = 'img/solManha.png'
         document.body.style.background = '#ffb72d'
     }else if(hora < 18){
         //boa tarde
-        img.src = 'solTarde.png'
+        img.src = 'img/solTarde.png'
         document.body.style.background = '#683637'
     }else{
         //boa noite
-        img.src = 'noite.png'
+        img.src = 'img/noite.png'
         document.body.style.background = '#252a3a'
     }
 }
